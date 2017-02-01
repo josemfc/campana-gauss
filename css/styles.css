@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway.regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.loader{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+table{
+	margin: 40px auto 10px;
+	font-size: 12px;
+}
+
+table, td, colgroup {
+	border: 1px solid #CCC;
+}
+
+thead td{
+	font-weight: bold;
+	width: 25px;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+td.nombre {
+	width: 300px;
+	padding-left: 5px;
+	text-align: left;
+}
+
+td {
+	padding: 4px 2px;
+}
+
+td.meses {
+	font-size: 10px;
+}
+
+.programas .color {
+	background-color:#ffee00 !important;
+	box-shadow: 0 0 0 4px #fff inset;
+}
+
+.programas .color:hover {
+	background-color:#404040 !important;
+}
+
+colgroup.hover, .programas tbody tr:hover, .asignaturas tbody tr:hover{
+	background-color: #F0F0F0;
+}
+colgroup.hover.nombre, .year{
+	background-color: #FFF;
+}
+
+.programas{
+	text-align: left;
+}
+.navbar-btn, .navbar-btn:hover, .navbar-btn:focus {
+	color: #337AB7;
+	margiin-right: 20px;
+}
+
+.navbar-btn.return{
+	margin-left: 20px;
+}
+
+.jumbotron, .jumbotron a{
+	margin-top: 10px;
+}
+/*.jumbotron .bootstrap-select{
+	margin-bottom: 10px;
+}*/
+
+#descargas a .glyphicon-new-window{
+	visibility: hidden;
+	margin-left: 5px;
+}
+
+#descargas a:hover .glyphicon-new-window{
+	visibility: visible;
+}
+
+/* Ajustes Luis */
+
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@media (max-width: 448px) {
+	.container .jumbotron, .container-fluid .jumbotron {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.jumbotron .row {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.jumbotron {
+	background-color: #ffffff;
+}
+
+.jumbotron > .row:first-of-type{
+	margin-left: 0;
+	margin.right: 0;
+	background-color: #ffee00;
+	padding: 45px 10px;
+	margin: 30px 0;
+}
+
+.jumbotron .bootstrap-select {
+	float: left !important;
+	margin: 10px 0;
+}
+
+.jumbotron .bootstrap-select .dropdown-toggle {
+	line-height: 34px;
+	border: none;
+	border-radius: 0;
+}
+
+.jumbotron h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.jumbotron p {
+	font-size: 14px;
+}
+
+.jumbotron .btn-primary {
+	background-color: #404040;
+	border-radius: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: "AvantGarde";
+	padding: 10px 40px;
+}
+
+.jumbotron .btn-primary:focus {
+	background-color: #777777;
+}
+
+@font-face {
+    font-family: "AvantGarde";
+    src: url('../fonts/ITCAvantGardeStd-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Regular.ttf') format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "AvantGarde";
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+body {
+	font-family: "Raleway";
+}
+
+.navbar-default {
+	background-color: #404040;
+	border: none;
+}
+
+.navbar button, .navbar a {
+   background-color: #ffee00;
+   border: medium none;
+   border-radius: 0;
+   color: #404040;
+   margin-left: 10px;
+   padding: 10px 20px;
+}
+
+.navbar button:hover, .navbar button:focus, .navbar a:hover, .navbar a:focus {
+  background-color: lightyellow;
+  color: #777;
+}
+
+.form-control:focus {
+	border-color: #ffee00;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #ffee00;
+}
+
+div.dropdown-menu > ul > li > a {
+	line-height: 32px;
+	white-space: normal;
+}
+
+div.dropdown-menu > ul > li > a:hover, div.dropdown-menu > ul > li.active > a, div.dropdown-menu > ul > li.active > a:hover {
+	background-color: #404040;
+	color: #fff;
+}
+
+.par .color {
+  background-color: orange !important;
+}
+
+/* Estilos Chema */
+.selectpicker {
+	padding: 7px;
+}
+
+.conv-resultado {
+	border: 20px solid #ffee00;
+	font-size: 20px;
+}
+
